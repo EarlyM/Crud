@@ -1,0 +1,25 @@
+<html xmlns:wicket="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Wicket Quickstart Archetype Homepage</title>
+    </head>
+    <body>
+
+    <div id="bd" style="display: table; margin-left: 250px">
+        <a href="#" wicket:id="logout"> Logout</a>
+        <form wicket:id="searchForm">
+            <input type="text" wicket:id="searchValue">
+            <input type="submit" wicket:id="btn">
+        </form>
+        <a href="#" wicket:id="createNewUser">Create new User</a>
+        <div wicket:id="userList" style="display: table-row; margin-top: 20px">
+            <div style="display: table-cell;"><b>User : </b></div>
+            <div wicket:id="login" style="display: table-cell; padding-left: 25px"></div>
+            <div wicket:id="password" style="display: table-cell; padding-left: 25px"></div>
+            <div wicket:id="fio" style="display: table-cell; padding-left: 25px"></div>
+            <a href="#" wicket:id="editLink">Edit</a>
+            <a href="#" wicket:id="delete" style="display: table-cell; padding-left: 25px">Delete</a>
+        </div>
+    </div>
+    </body>
+</html>
+
